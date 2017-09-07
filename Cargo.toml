@@ -1,6 +1,7 @@
 [package]
 name = "libsensors-sys"
 version = "0.1.0"
-authors = ["The NGR Authors <ngr-authors@nyantec.com>"]
+authors = ["nyantec GmbH <dev@nyantec.com>"]
+license = "MirOS"
 
 [dependencies]
