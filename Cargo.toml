@@ -3,5 +3,7 @@ name = "libsensors-sys"
 version = "0.1.0"
 authors = ["nyantec GmbH <dev@nyantec.com>"]
 license = "MirOS"
+description = "Rust bindings to libsensors"
+
 
 [dependencies]
