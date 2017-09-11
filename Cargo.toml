@@ -1,6 +1,6 @@
 [package]
 name = "libsensors-sys"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["nyantec GmbH <dev@nyantec.com>"]
 license = "MirOS"
 description = "Rust bindings to libsensors"
