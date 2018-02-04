@@ -5,5 +5,7 @@ authors = ["nyantec GmbH <dev@nyantec.com>"]
 license = "MirOS"
 description = "Rust bindings to libsensors"
 
-
 [dependencies]
+
+[build]
+rustc-link-lib = ["sensors"]
