@@ -1437,18 +1437,17 @@ fn bindgen_test_layout_sensors_subfeature() {
 impl Clone for sensors_subfeature {
     fn clone(&self) -> Self { *self }
 }
+#[link(name = "sensors")]
 extern "C" {
     pub fn sensors_get_features(name: *const sensors_chip_name,
                                 nr: *mut ::std::os::raw::c_int)
      -> *const sensors_feature;
-}
-extern "C" {
+
     pub fn sensors_get_all_subfeatures(name: *const sensors_chip_name,
                                        feature: *const sensors_feature,
                                        nr: *mut ::std::os::raw::c_int)
      -> *const sensors_subfeature;
-}
-extern "C" {
+
     pub fn sensors_get_subfeature(name: *const sensors_chip_name,
                                   feature: *const sensors_feature,
                                   type_: sensors_subfeature_type)
